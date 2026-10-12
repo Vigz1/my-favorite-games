@@ -1,0 +1,79 @@
+/* General page styles */
+body {
+    background-color: #f4f4f4;
+    color: darkblue;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Heading styles */
+h1 {
+    color: darkred;
+    font-size: 36px;
+    text-align: center;
+    border-bottom: 2px solid darkred;
+}
+
+/* Heading styles */
+h2 {
+    color: darkgreen;
+    font-size: 24px;
+}
+
+/* Heading styles */
+h3 {
+    color: darkblue;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Navigation link styles */
+a {
+    color: darkgreen;
+     text-decoration: none;
+}
+
+/* Navigation link styles */
+a:hover {
+    color: red;
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 300px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Game card styles */
+.game-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Game card hover effects */
+.game-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+p {
+    line-height: 1.6;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
