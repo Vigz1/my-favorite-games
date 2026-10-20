@@ -19,6 +19,7 @@ h1 {
 h2 {
     color: darkgreen;
     font-size: 24px;
+    text-align: center;
 }
 
 /* Heading styles */
@@ -76,4 +77,52 @@ p {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+
+/* Contact form styles */
+form {
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #004d00;
 }
