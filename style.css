@@ -61,7 +61,7 @@ img {
     border: 1px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
-    width: 100%;
+    width: auto;
     box-sizing: border-box;
     text-align: center;
 }
@@ -125,4 +125,28 @@ form button {
 
 form button:hover {
     background-color: #004d00;
+}
+
+/* Navigation layout using Flexbox */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+/* Arrange game cards using Flexbox */
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.games-container .game-card {
+    flex: 1 1 300px;
+    max-width: 450px;
 }
