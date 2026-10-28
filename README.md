@@ -28,6 +28,12 @@ The CSS box model consists of content, padding, border, and margin.
 Padding creates space inside an element, while margin creates space outside it.
 
 
+## Flexbox vs. CSS Grid
+
+I use Flexbox when I want to arrange items along one main direction, such as navigation links in a row. I use CSS Grid when I want to organise items into both rows and columns, such as a gallery of game cards.
+
+
+
 ## Links
 - **Live Website:** https://my-favorite-games-nine.vercel.app/
 - **GitHub Repository:** https://github.com/Vigz1/my-favorite-games
