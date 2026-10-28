@@ -150,3 +150,47 @@ nav {
     flex: 1 1 300px;
     max-width: 450px;
 }
+
+
+/* Contact form helper text */
+form small {
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 13px;
+}
+
+
+/* Radio buttons and checkbox */
+form input[type="radio"],
+form input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin: 0 8px 0 0;
+    padding: 0;
+}
+
+form label:has(input[type="radio"]),
+form label:has(input[type="checkbox"]) {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+
+/* Highlight fields when selected */
+form input:focus,
+form textarea:focus {
+    outline: 2px solid #357e9d;
+    outline-offset: 2px;
+    border-color: #357e9d;
+}
+
+/* Show valid fields */
+form input:valid,
+form textarea:valid {
+    border-color: green;
+
+}
