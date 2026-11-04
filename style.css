@@ -3,8 +3,8 @@ body {
     background-color: #f4f4f4;
     color: darkblue;
     font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 10px;
+    margin: 0px;
+    padding: 15px;
 }
 
 /* Heading styles */
@@ -121,6 +121,7 @@ form button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    min-height: 44px;
 }
 
 form button:hover {
@@ -194,4 +195,50 @@ form input:valid,
 form textarea:valid {
     border-color: green;
 
+}
+
+
+/* Tablet styles */
+@media (min-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .games-container {
+        gap: 24px;
+    }
+
+    nav {
+        gap: 35px;
+    }
+}
+
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+    body {
+        padding: 30px;
+    }
+
+    .games-container {
+        gap: 30px;
+    }
+
+    .games-container .game-card {
+        flex: 1 1 300px;
+    }
+
+    form {
+        max-width: 600px;
+    }
+}
+
+nav a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    box-sizing: border-box;
 }

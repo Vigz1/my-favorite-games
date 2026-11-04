@@ -32,6 +32,18 @@ Padding creates space inside an element, while margin creates space outside it.
 
 I use Flexbox when I want to arrange items along one main direction, such as navigation links in a row. I use CSS Grid when I want to organise items into both rows and columns, such as a gallery of game cards.
 
+## Responsive Design Testing
+
+I tested the website at different viewport widths using Chrome DevTools.
+
+| Viewport | Description | Result |
+|---|---|---|
+| 375px | Mobile layout | Passed |
+| 767px | Just before tablet breakpoint | Passed |
+| 768px | Tablet breakpoint | Passed |
+| 1023px | Just before desktop breakpoint | Passed |
+| 1024px | Desktop breakpoint | Passed |
+| 1440px | Large desktop layout | Passed |
 
 
 ## Links
