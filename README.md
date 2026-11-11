@@ -1,4 +1,5 @@
 # My Favorite Games
+![My Favorite Games Website Preview](images/website-preview.png)
 A simple three-page website showcasing some of my favorite video games.
 
 ## About
@@ -45,6 +46,11 @@ I tested the website at different viewport widths using Chrome DevTools.
 | 1024px | Desktop breakpoint | Passed |
 | 1440px | Large desktop layout | Passed |
 
+## How to Run Locally
+
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` in your browser, or use the Live Server extension in VS Code.
 
 ## Links
 - **Live Website:** https://my-favorite-games-nine.vercel.app/
